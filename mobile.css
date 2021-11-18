@@ -1,0 +1,114 @@
+@media all and (max-width : 1000px) {
+    header nav {
+        border : none ;
+    }
+    header nav .left-section-nav  {
+        display: none;      
+    }
+    header nav .right-section-nav ul {width: 100%;}
+    header nav .right-section-nav ul li {
+        display: none;
+    }
+    header nav .right-section-nav ul li:last-child {
+        width: 100%;
+        display: block;
+        position: absolute;
+        top : 2%; 
+        left: 2%;
+    }
+
+    .width-left-menu {
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;     
+    }
+    .width-left-menu ul {
+        height: 200vh;
+        justify-content: space-evenly;
+        
+    }
+    .width-left-menu ul li:first-child a  {
+        padding-top :20px;
+    }
+   .width-left-menu .hos {
+       height: 300vh;
+   }
+
+
+    .second-nav-section {
+        display: block;
+        width: 100%;
+    }
+    .logo-section span img {
+        width: 80px;
+        margin : 40px 40px;
+    }
+    .second-nav-section .second-nav-list a {
+        font-size : 10px;
+    }
+    .second-nav-section .qoutes {
+        margin : 40px 10px;
+    }
+    .second-nav-last-items .language {
+        margin: 40px 10px;
+    }
+    .slider .text {text-align: center;}
+    .slider .text span h1 {
+        font-size : 30px !important;
+       
+    }
+    .slider .text p {
+        font-size :20px !important;
+    } 
+
+    .department-section {
+        display: block;
+    }
+    .department-container {
+        display: none;
+    }
+    .no-bor {
+        border-top : 1px solid #ddd;
+    }
+    
+    .inter-container .inter-left  {
+        width: 100%;
+    }
+    .inter-container .inter-left  h1 {
+        font-size : 20px;
+    }
+    .inter-container .inter-right img {
+        display: none;
+    }
+    .inter-right {
+        display: none;
+    }
+    .left-department-section button {
+        display: block;
+    }
+    .machine-container {
+        display: block;
+    }
+    .machine-container img {
+        width: 300px;
+        margin : auto ;
+    }
+    .machine-container .machine-content img {
+        margin : auto ;
+    }
+    footer {
+        display: block;
+        width: 100%;
+        height: 200vh;
+    }
+    .hos li span{
+        font-size : 12px !important;
+    }
+    .aliging {
+        font-size : 8px;
+    }
+    input[type=search] {
+        width: 200px;
+    }
+} 
