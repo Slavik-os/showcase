@@ -1,9 +1,10 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @font-face {
     font-family: 'Formular-Bold';
-    src: url('fonts/Formular-Bold.ttf');
+    src: url('font/Formular-Bold.ttf');
 }
 @font-face {
     font-family: 'Formular-reg';

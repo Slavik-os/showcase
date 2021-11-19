@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="mobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left-section-nav">
+                <div class="nav-container">
+                    <img src="assets/emergency.png" alt="">
+                    <div class="nav-container-text">
+                        <span>Emergency : </span>
+                        <span>+666 555 666 11</span>
+                    </div>                    
+                </div>
+                <div class="nav-container">
+                    <img class="second-nav-image" src="assets/icon2.png" alt="">
+                    <div class="nav-container-text">
+                        <span>Appointments :</span>
+                        <span>14/Nov/2021</span>
+                    </div>                    
+                </div>
+                <div class="nav-container">
+                    <img  class="last-nav-image" src="assets/icon3.png" alt="">
+                    <div class="nav-container-text">
+                        <span>International Licence : </span>
+                        <span>0484-290 5000</span>
+                    </div>                    
+                </div>
+            </div>
+            <div class="right-section-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Academy</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <div  onclick="openNav()" class="logo-container">
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            <div class="right-logo"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div  id ="side-nav-menu" class="width-left-menu">
+                <span id="close" onclick="closeNav()"><i class="fas fa-times"></i></span>
+
+                <ul>
+                    <li><a href="#">Hospital links</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Managment Team</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="#">News And Events</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Research</a></li>
+                </ul>
+
+
+                <ul>
+                    <li><a href="#">Information links</a></li>
+                    <li><a href="#">Medical Team</a></li>
+                    <li><a href="#">International Patients </a></li>
+                    <li><a href="#">Patient Care</a></li>
+                    <li><a href="#">COVID-19 Treatment Charges</a></li>
+                </ul>
+
+                <ul class="hos">
+                    <li>
+                        <span class="logo">
+                            <img src="assets/hospital icon.png" alt="">
+                        </span>
+                        <li>
+                            <span>Requests Hospital</span>
+                        </li>
+                    </li>
+                    <li> 
+                        <span>
+                        Tangier , Charf Hill , 91000 (6 km from Fahd School) <br>
+                        Tangier, Morroco
+                       </span>
+                    </li>
+
+                    <li> 
+                        <span>
+                            <span class="width-highLight">Email : </span>accuelle@requests.com
+                       </span>
+                    </li>
+                    <li> 
+                        <span>
+                            <span class="width-highLight" >Phone : </span>+666 234 134 23
+                       </span>
+                    </li>
+                    <li>
+                        <div class="width-hero-line"></div>
+                    </li>
+                    <li><span class="Touch-qoute">Let's Stay in Touch!</span></li>
+                    <li>
+                            <input type="search" placeholder="Your Email Address"> 
+                    </li>
+                    <li>
+                        <button class="sub-button">Subscribe</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="nav-second-section">
+            <span><i class="fas fa-phone"></i> <h4>+555 223 123 21</h4></span>
+            <span><i class="fas fa-envelope-open-text"></i> <h4>email@requests.com</h4></span>
+        </div>
+        <div class="login-container">
+            <div class="login-card">
+                <span><h1>Login to book an appointment</h1></span>
+                <form action="#">
+                    <label for="email">Email address</label>
+                    <input type="text">
+
+                    <label for="Password">Password</label>
+                    <input type="password">
+                    
+                    <input type="submit" value="LOGIN">
+                    <span>Dont have an account yet ? <a href="register.html" class="SignUp"> Singup</a> now .</span>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li><a href="#">Hospital links</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Managment Team</a></li>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">News And Events</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Research</a></li>
+            </ul>
+
+
+            <ul>
+                <li><a href="#">Information links</a></li>
+                <li><a href="#">Medical Team</a></li>
+                <li><a href="#">International Patients </a></li>
+                <li><a href="#">Patient Care</a></li>
+                <li><a href="#">COVID-19 Treatment Charges</a></li>
+            </ul>
+
+            <ul class="hos">
+                <li>
+                    <span class="logo">
+                        <img src="assets/hospital icon.png" alt="">
+                    </span>
+                    <li>
+                        <span>Requests Hospital</span>
+                    </li>
+                </li>
+                <li> 
+                    <span class="aliging">
+                    Tangier , Charf Hill , 91000 (6 km from Fahd School) <br>
+                    Tangier, Morroco
+                   </span>
+                </li>
+
+                <li> 
+                    <span>
+                        <span class="width-highLight">Email : </span>accuelle@requests.com
+                   </span>
+                </li>
+                <li> 
+                    <span>
+                        <span class="width-highLight" >Phone : </span>+666 234 134 23
+                   </span>
+                </li>
+                <li>
+                    <div class="width-hero-line"></div>
+                </li>
+                <li><span class="Touch-qoute">Let's Stay in Touch!</span></li>
+                <li>
+                        <input type="search" placeholder="Your Email Address"> 
+                </li>
+                <li>
+                    <button class="sub-button">Subscribe</button>
+                </li>
+            </ul>
+    </footer>
+    <div class="copy-right">
+        <span> © 2021 Requests. All right servered. Terms of Use and Privacy Policy</span>
+    </div>
+        <script src="js.js"></script>
+</body>
+</html>
