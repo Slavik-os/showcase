@@ -1,0 +1,137 @@
+.img-width {
+    position: relative; 
+    width: 100%;
+    height: 357px;}
+.img-width  img{
+    width: 100%;
+    height: 357px;
+    object-fit: cover;
+    z-index: 0;
+    position: absolute;
+}
+
+.img-width  .text-hover {
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    bottom : 100%;
+    left : 0 ; 
+    right : 0 ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease;
+}
+    .img-width:hover .text-hover{
+        bottom: 0;
+        height: 100%;
+        text-align: center;
+    }
+.text-hover h1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, 50%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size : 55px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    width: 100%;
+}
+
+.background-layout {
+    z-index : 1 ;
+    background:#698D9B;
+    opacity: 54%;
+    width: 100%;
+    height: inherit;
+    position: absolute;
+  
+}
+
+.missing{
+    width: 100%;
+    text-align: center;
+}
+.missing h1 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 43px;
+    letter-spacing: 0.11em;
+    color: #1F4756;
+    font-weight: 500;
+    padding : 20px;
+}
+
+
+.middle-content-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+}
+
+.left-col {
+    width: 100%;
+}
+.left-col .about-us-content {
+    background: #E2EEF9;
+    width: 503px;
+    height: 197px;
+    font-family: 'Formular-reg';
+    padding : 20px;
+}
+.left-col .about-us-content span:first-child  {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.11em;
+    font-weight: 300;
+    color: #E01C50;
+}
+.about-us-content p {
+    font-size: 30px;
+    padding-top :20px;
+    line-height: 37px;
+    letter-spacing: 0.11em;
+    color: #1F4756;
+}
+
+.content-container{
+    background: #E2EEF9;
+    width: 503px;
+}
+.content-container P , .right-col p{
+    padding-bottom: 10%;
+    font-size: 15px;
+    padding-top : 10%;
+    font-family: 'Formular-reg';
+    color : #1F4756;
+    padding-left : 20px;
+}
+@media all and (max-width : 550px) {
+  header nav {
+      position: absolute;
+      z-index : 3;
+  }
+  .img-width .text-hover h1 {
+        font-size : 29px;
+        position : none;
+        top : 10%;
+        transition: none;
+        transform : none ;
+        position :initial
+
+  }
+  .img-width:active .text-hover{
+    bottom: 0;
+    height: 100%;
+    text-align: center;
+}
+.middle-content-container {
+    display: block;
+}
+} 
